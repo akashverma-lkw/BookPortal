@@ -156,3 +156,24 @@
       letter-spacing: 0.5px;
     }
 }
+@media (max-width: 374px) {
+    .content {
+        position: absolute;
+        margin-top: 28%;
+        margin-left: -1%;
+        margin-right: 1%;
+        max-width: 730px;
+        color: white;
+    }
+    .content h1{
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 48px;
+    }
+    .content p{
+        width: 100%;
+      color: rgba(255, 255, 255, 0.856);
+      font-size: 18px;
+      letter-spacing: 0.5px;
+    }
+}

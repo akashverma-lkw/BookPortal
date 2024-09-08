@@ -10,3 +10,8 @@
     border: none;
     background: transparent;
 }
+@media only screen (max-width:374px) {
+   .create-book{
+    
+   }
+}
