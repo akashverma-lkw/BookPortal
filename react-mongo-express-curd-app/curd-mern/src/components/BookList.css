@@ -1,0 +1,6 @@
+.book-list{
+    transform: translate(20px,30px);
+    background: transparent;
+    mix-blend-mode: color-burn;
+}
+

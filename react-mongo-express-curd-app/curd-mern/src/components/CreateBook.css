@@ -1,0 +1,12 @@
+.create-book{
+    background: transparent;
+    transform: translate(20px,30px);
+}
+.create-book input{
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    background: transparent;
+}
+.create-book input:focus{
+    border: none;
+    background: transparent;
+}
