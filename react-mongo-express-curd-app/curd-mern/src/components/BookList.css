@@ -1,6 +1,12 @@
-.book-list{
+book-list{
     transform: translate(20px,30px);
     background: transparent;
     mix-blend-mode: color-burn;
 }
-
+@media  (max-width:374px) {
+    .book-list{
+        transform: translate(-10px,10px);
+        background: transparent;
+        mix-blend-mode: color-burn;
+    }
+}
