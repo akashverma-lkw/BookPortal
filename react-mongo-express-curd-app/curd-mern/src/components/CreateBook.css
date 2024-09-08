@@ -10,3 +10,8 @@
     border: none;
     background: transparent;
 }
+@media (max-width:374px) {
+   .create-book{
+    transform: translate(1px,-7px);
+   }
+}
