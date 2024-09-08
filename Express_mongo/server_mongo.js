@@ -6,7 +6,7 @@ const cors = require("cors")
 
 
 var corsOptions = {
-    origin: "http://localhost:5173" 
+    origin: "https://vercel.com/akash-vermas-projects-c7c850c7/book-portal" 
 };
 
 app.set("Content-Type","application/json")
