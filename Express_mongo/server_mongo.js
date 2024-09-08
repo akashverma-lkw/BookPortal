@@ -4,10 +4,13 @@ const mongoose=require("mongoose")
 const bodyParser=require("body-parser")
 const cors = require("cors")
 
-
+app.use(cors(
 var corsOptions = {
-    origin: "https://vercel.com/akash-vermas-projects-c7c850c7/book-portal" 
-};
+                    origin: ["https://vercel.com/akash-vermas-projects-c7c850c7/book-portal"],
+                    methods : ["POST", "GET"],
+                    credentials: true
+                   };
+));
 
 app.set("Content-Type","application/json")
 
