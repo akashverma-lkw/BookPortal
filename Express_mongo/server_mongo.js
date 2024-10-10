@@ -14,7 +14,6 @@ app.use(cors(corsOptions));
 
 app.set("Content-Type","application/json")
 
-app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
