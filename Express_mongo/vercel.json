@@ -3,4 +3,8 @@
     "builds": [{ "src": "./server_mongo.js", "use":
         "@vercel/node" }],
     "routes": [{ "src": "/(.*)", "dest": "/"}]
+<<<<<<< HEAD
 } 
+=======
+} 
+>>>>>>> 701c6db (Merge remote-tracking branch 'origin/main')
