@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // MongoDB connection
-mongoose.connect("mongodb+srv://akashvermastp7:5RUXuaJhkd9lORO6@cluster0.mrrpy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+mongoose.connect("mongodb+srv://akashvermastp7:5RUXuaJhkd9lORO6@cluster0.mrrpy.mongodb.net/book-portal?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
